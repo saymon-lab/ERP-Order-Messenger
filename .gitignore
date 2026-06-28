@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Banco SQLite
+database/history.db
+
+# Perfil Chrome
+chrome_profile/
+
+# Logs
+logs/
+
+# Arquivos enviados
+pedidos_enviados/
+
+# Pedidos de teste
+pedidos/pendentes/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
