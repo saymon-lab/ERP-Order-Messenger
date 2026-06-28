@@ -1,1 +1,21 @@
-ERP Order Messenger é uma solução de automação desenvolvida em Python para ambientes corporativos. O sistema monitora pedidos gerados pelo ERP, extrai informações relevantes diretamente do PDF, envia notificações automáticas via WhatsApp, registra auditoria em banco SQLite e organiza os documentos processados, reduzindo atividades manuais do faturamento e aumentando a velocidade de comunicação com a equipe comercial.
+# ERP Order Messenger
+
+Sistema desenvolvido em Python para automatizar o processamento de pedidos de venda gerados pelo ERP.
+
+## Funcionalidades
+
+- Monitoramento automático de pasta
+- Leitura de PDFs
+- Extração de informações do pedido
+- Controle de duplicidade por Hash
+- Registro em SQLite
+- Organização automática dos arquivos
+- Interface gráfica (CustomTkinter)
+
+## Tecnologias
+
+- Python
+- SQLite
+- Watchdog
+- PDFPlumber
+- CustomTkinter
